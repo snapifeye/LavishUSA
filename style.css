@@ -6,12 +6,14 @@ body{
    padding: 100px;
    padding-top: 100px;
    background: black;
+   font-family: 'Open Sans Condensed', sans-serif;
 }
 
 
 div{
    margin: 0px;
    padding: 0px;
+   font-family: 'Open Sans Condensed', sans-serif;
 }
 img{
    border: 0px;
@@ -25,6 +27,7 @@ table{
 p{
    margin: 15px;
    padding: 0px;
+   font-family: 'Open Sans Condensed', sans-serif;
 }
 ul{
    margin-top: 10px;
@@ -38,31 +41,37 @@ a{
    text-decoration: underline/none;
    color: black;
    font-weight: bold/normal;
+   font-family: 'Open Sans Condensed', sans-serif;
 }
 a:hover{
    text-decoration: underline/none;
    color: #f2653b;
    font-weight: bold/normal;
+   font-family: 'Open Sans Condensed', sans-serif;
    /*make sure to change at least one thing from your a tag definition*/
 }
 a:visited{
    text-decoration: underline/none;
    color: #193261;
    font-weight: bold/normal;
+   font-family: 'Open Sans Condensed', sans-serif;
    /*make sure to change at least one thing from your a tag definition*/
 }
 
 h1{
   text-color:white;
   text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h2{
   text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h3{
   text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h4{
@@ -70,6 +79,7 @@ h4{
   padding:50px;
   font-size: 25px;
   line-height: 26px:
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 
@@ -227,14 +237,14 @@ line-height: 35px;
 }
 
 #rokkin{
-          position:fixed;
+
           width:1920px;
           height:1080px;
           z-index:-1;
           transform: translate(-50%, -50%);
           left: 50%;
           top: 50%;
-					background-image: url("Lavish.jpg");
+					background-image: url("Cans.png");
         }
 .button {
           display: block;
@@ -303,21 +313,31 @@ line-height: 35px;
 
 }
 
-@media (max-width: 650px) {
-.buttonResponsive {
-          display: block;
-          margin: auto;
-          text-align: center;
-          background: white;
-          font-size: 24px;
-          color:#f2653b;
-          width:75%;
-          height:60px;
-          box-shadow: 4px 4px 4px #6d6d6d;
-          padding:15px;
-        }
-      }
+.drinks{
+  max-width: 200px;
+  max-height: 400px;
+  width:100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 
+}
+#cans{
+width:100vw;
+height:auto;
+overflow:visable;
+top:0px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+@media (max-width: 999px) {
+
+        .drinks{
+        display:none;
+        }
+}
 
 
 </style>
