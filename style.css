@@ -39,20 +39,20 @@ ul{
 }
 a{
    text-decoration: underline/none;
-   color: black;
+   color: white;
    font-weight: bold/normal;
    font-family: 'Open Sans Condensed', sans-serif;
 }
 a:hover{
    text-decoration: underline/none;
-   color: #f2653b;
+   color: grey;
    font-weight: bold/normal;
    font-family: 'Open Sans Condensed', sans-serif;
    /*make sure to change at least one thing from your a tag definition*/
 }
 a:visited{
    text-decoration: underline/none;
-   color: #193261;
+   color: grey;
    font-weight: bold/normal;
    font-family: 'Open Sans Condensed', sans-serif;
    /*make sure to change at least one thing from your a tag definition*/
